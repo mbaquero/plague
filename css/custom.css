@@ -1,0 +1,94 @@
+body{
+	margin:auto;
+	width:800px;
+}
+body,td,input,textarea,select,div,label,a{
+	font-family:arial,sans-serif;
+	color: #1a1a1a;
+	text-decoration: none;
+	font-size:14px;
+}
+input,textarea,select{
+	border: 1px solid #ccc;
+}
+
+label{
+	margin:1px 2px 1px 10px;
+	text-align:right;
+}
+
+ul {
+	list-style: none;
+	margin: 2px;
+	padding: 2px;
+}
+
+li {
+	width: 120px;
+	height: 18px;
+}
+
+#menu{
+	border-bottom: 1px solid #CCC;
+	height: 32px;
+	overflow: visible;
+	z-index: 100;
+	float:left;
+	clear:left;
+}
+
+#menu ul li{
+	float:left;
+	border: 1px solid blue;
+	margin:1px;
+}
+
+#menu ul li:hover{
+	border: 1px solid green;
+	color: green;
+}
+
+#content {
+	float:left;
+	border:1px solid #ccc;
+	width:500px;
+	min-height:400px;
+}
+
+#leftCol {
+	float:left;
+	width:178px;
+	border:1px solid #ccc;
+	min-height: 400px;
+}
+
+#rightCol {
+	float:right;
+	width:115px;
+	border:1px solid #ccc;
+	min-height: 400px;
+}
+
+#footer {
+	border-top: 1px solid #CCC;
+	margin-top: 22px;
+	clear:both;
+	color:#555;
+	padding:5px;
+	text-align:center;
+}
+
+.imgIco {
+	display: inline-block;
+	float: both;
+	background-color: transparent;
+	border:0;
+	width: 16px;
+	height: 16px;
+	background-image: url(../ico/lftIco.png);
+}
+
+.bgPos3 { background-position: 0px -34px; }
+
+.bgPos4 { background-position: 0px -51px; }
+
